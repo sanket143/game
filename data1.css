@@ -1,0 +1,22 @@
+img{
+	height:100px;
+	width:100px;.
+}
+img:hover{
+	border:1px solid blue;
+}
+body{
+	background-image: url(player_logo/Hacker_UHD.jpg);
+}
+#fight{
+	border:1px dotted red;
+	background-color:#99d9ea;
+	font-style: italic;
+	width:100px;
+	padding:10px;
+}
+#fight:hover{
+	background-color:rgba(153, 217, 234, 0.44);
+	color:white;
+	border:none;
+}

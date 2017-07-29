@@ -1,0 +1,27 @@
+<html>
+<script src="data.js"></script>
+<link rel="stylesheet" href="data1.css">
+<body>
+<script>
+document.write(location.search);
+</script>
+<center>
+<h1 style="font-family:fantasy;color:white;">WWE_Beta game</h1>
+<pre id="player1">
+
+<img src="player_logo/john_cena.png" onclick="jc()">&nbsp;<img src="player_logo/cm_punk.png" onclick="cm()">&nbsp;<img src="player_logo/The_rock.png"onclick="tr()">&nbsp;<img src="player_logo/The_Undertaker.png"onclick="tu()">
+
+</pre>
+<div id="player2">
+<img src="player_logo/user.png">
+</div>
+<h3 id="info" style="color:white;font-family:cursive;">Choose your Player</h3>
+<form name="fight" action="fight.html">
+<input type="text" name="yourp" value="" hidden>
+<input type="submit" id="fight" value="Fight !">
+</form>
+</center>
+
+
+</body>
+</html>

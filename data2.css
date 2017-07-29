@@ -1,0 +1,38 @@
+img{
+	height:100px;
+	width:100px;
+	padding:10px;
+}
+img:hover{
+	border:1px solid aqua;
+}
+body{
+	background-image: url(player_logo/Hacker_UHD.jpg);
+	color:white;
+}
+#user{
+	align-items: left;
+}
+#opponent{
+	align-items: right;
+	float:right;
+}
+.invalid{
+	display:none;
+}
+a{
+	text-decoration:none;
+}
+#vs{
+	text-align:center;
+	font-size:50px;
+	font-style: cursive;
+}
+button{
+	padding:10px;
+	border:none;
+	border-left:1px solid black;
+}
+button:hover{
+	background-color:aqua;
+}
