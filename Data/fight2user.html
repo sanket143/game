@@ -1,0 +1,43 @@
+<html>
+<link rel="stylesheet" href="fight2user.css">
+<body>
+<script src="jquery-3.2.1.min.js"></script>
+<script src="fight2user.js"></script>
+<div id="hero_arena">
+</div>
+<h1 align="center">The one with maximum epsilon</h1>
+<div id="hero">
+</div>
+<div id="villain">
+</div>
+<div>
+<center><h1>wins the match :p</h1><center>
+</div>
+<br><br><br><br><br><br>
+<div id="field">
+<table style="float:left">
+<tr><td><button onclick="punch()" class="punch">Punch</button></td></tr>
+<tr><td><button onclick="kick()" class="kick">Kick</button></td></tr>
+<tr><td><button onclick="signature1()" disabled class="sign1">Signature move(1)</button></td></tr>
+<tr><td><button onclick="signature2()" disabled class="sign2">Signature move(2)</button></td></tr>
+<tr><td><button onclick="finisher()" disabled class="finish">Finishing move</button></td></tr>
+</table>
+<table id="status" style="float:right">
+<tr><td>Health: </td><td><input type="text" name="st1" id="st1" value=100 readonly></td></tr>
+<tr><td>Epsilon: </td><td><input type="text" name="st2" id="st2" value=100 readonly></td></tr>
+</table>
+</div>
+<!-- for the status of the opponent -->
+<br><br><br><br><br><br><br><br><br><br><br>
+<h1 align="center">Opponent Status</h1><br>
+<div style="clear:both;" align="center" class="pcStatus">
+<table>
+<tr><td>Health: </td><td><input type='text' id="ost1" name="ost1" value=100 readonly></td></tr>
+<tr><td>Epsilon: </td><td><input type="text" id="ost2" name="ost2" value=100 readonly>
+</td></tr>
+
+</table>
+</div>
+<script src="fight2user.js"></script>
+</body>
+</html>

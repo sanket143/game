@@ -1,0 +1,15 @@
+img{
+	height:100px;
+	width:100px;
+	padding:10px;
+}
+img:hover{
+	border:1px solid aqua;
+}
+body{
+	background-image: url(Hacker_UHD.jpg);
+	color:white;
+}
+a{
+	text-decoration:none;
+}

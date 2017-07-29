@@ -1,0 +1,45 @@
+body{
+	background:linear-gradient(black,red);
+	color:white;
+}
+img{
+	height:100px;
+	width:100px;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+#villain{
+	float:right;
+}
+#hero{
+	float:left;
+}
+#field{
+	clear:left;
+}
+button{
+	width:150px;
+	background-color: black;
+	color:white;
+	border:none;
+	padding:5px;
+	transition: color 5000s;
+}
+button:hover{
+	background-color:red;
+}
+input{
+	background-color:transparent;
+	border:none;
+	color:white;
+}
+.pcStatus{
+	border:1px solid white;
+	background:linear-gradient(green 1%,red 99%);
+}
+#status{
+	border:1px solid white;
+	padding:10px;
+}
